@@ -1,0 +1,72 @@
+<div class="geltona1"></div>
+<div class="raudona1"></div>
+<div class="geltona2"></div>
+<div class="raudona2"></div>
+<div class="skritulys "><
+<div class="skritulys2"></div>
+</div>
+<style>
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  
+  .skritulys {
+    width: 100px;
+    height: 100px;
+    background: #F2E09F;
+    border-radius: 100px;
+    overflow: hidden;
+    position: absolute;
+  }
+
+  .skritulys2 {
+    width: 100px;
+    height: 100px;
+    background: #C36271;
+    position: absolute;
+    bottom: 50px;
+  }
+
+  .geltona2 {
+    width: 380px;
+    height: 50vh;
+    background: #F2E09F;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 0 0 100px 0;
+  }
+
+  .raudona2 {
+    width: 380px;
+    height: 50vh;
+    background: #C36271;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius:100px 0 0 0;
+  }
+
+  .geltona1 {
+    width: 150px;
+    height: 50vh;
+    background: #F2E09F;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  .raudona1 {
+    width: 150px;
+    height: 50vh;
+    background: #C36271;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+</style>

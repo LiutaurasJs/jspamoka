@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    const nailLength = 850; // cm
+const maxStroke = 20; // mm
+const minStroke = 5; // mm
+
+let totalPenetration = 0;
+let numStrokes = 0;
+
+while (totalPenetration < nailLength) {
+  let stroke = Math.floor(Math.random() * (maxStroke - minStroke + 1) + minStroke);
+  totalPenetration += stroke / 10; // convert from mm to cm
+  numStrokes++;
+}
+
+console.log("Number of strokes needed:", numStrokes);
+</script>
+</body>
+</html>
